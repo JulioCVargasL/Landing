@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 90px 20px 0;
+}
+
+.header {
+  background-color: aquamarine;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.logo{
+  width: bond;
+  height: 80px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.nav-link {
+  color:blue;
+  text-decoration: none;
+}
+.menu{
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+.menu_item{
+  font-size: 12px;
+  margin: 0 10PX;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+.nav-link:hover{
+  background-color: black;
+}
