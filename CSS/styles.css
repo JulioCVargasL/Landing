@@ -15,4 +15,62 @@ body {
   top: 0;
   left: 0;
 }
-.nav
+.nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+.nav-link {
+  color: rgb(9, 4, 97);
+  text-decoration: none;
+  border: aqua 2px outset;
+  border: none 2px;
+  font-size: 10px;
+  margin: 0px 5px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+.nav-link:hover{
+  color: rgb(9, 4, 97);
+  text-decoration: none;
+  border: aqua 2px outset;
+  font-size: 10px;
+  margin: 0px 5px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+ 
+}
+.nav-link:active{
+  color: rgb(9, 4, 97);
+  text-decoration: none;
+  border: aqua 2px inset;
+  font-size: 10px;
+  margin: 0px 5px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+.logo {
+  height: 60px;
+  margin-left:10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.menu {
+  display: flex;
+  margin-right: 40PX;
+  list-style: none; 
+}
+.toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 40px;
+  padding: 0 20px;
+  line-height: 60px;
+  display: none;
+}
