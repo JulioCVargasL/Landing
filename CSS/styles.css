@@ -1,14 +1,25 @@
 *{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 90px 20px 0;
+}
+.contenedor{
+
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin:auto;
+  overflow: hidden;
 }
 .header {
-  background-color: rgb(170, 154, 195);
+  background: #373b4490;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f482, #373b4468);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   height: 80px;
   position: fixed;
   width: 100%;
@@ -100,6 +111,20 @@ body {
   line-height: 60px;
   display: none;
 }
+.sport-select{
+  margin-top: 40px;
+}
+.titulo{
+  color: #ddec09;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
 .main{
-  
+  width: 100%;
+  background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00b3db53);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0084b09f, #00b3dbc8),url(/assets/Background.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }

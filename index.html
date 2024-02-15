@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/logo1.png">
   <link rel="stylesheet" href="CSS/styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <title>Landing page</title>
@@ -26,38 +27,62 @@
     </nav>
   </header>
   <main class="main">
-    <section>
-      <nav class="calendario deportivo">
-        <h3>Calendario de deportes</h3>
+    <section class="contenedor sport-select">
+      <nav>
+        <h2 class="titulo">Selecciona tu deporte</h2>
         <nav>
           <a href="#">
-            <img src="assets/futbol.jpeg" alt="Futbol_link" id="futbol">
-            <label for="futbol">Futbol</label>
+            <img class="img-select" src="assets/futbol.jpeg" alt="Futbol-link" id="futbol">
+            <div class="hover-select">
+              <label class="seccion-calendario" for="futbol">Futbol</label>
+            </div>
           </a>
         </nav>
         <nav>
           <a href="#">
-            <img src="assets/baloncesto.jpeg" alt="baloncesto_link" id="baloncesto">
-            <label for="futbol">baloncesto</label>
+            <img class="img-select" src="assets/baloncesto.jpeg" alt="baloncesto-link" id="baloncesto">
+            <div class="hover-select">
+              <label class="seccion-calendario" for="baloncesto">baloncesto</label>
+            </div>
           </a>
         </nav>
         <nav>
           <a href="#">
-            <img src="assets/voleibol.jpeg" alt="voleibol_link" id="voleibol">
-            <label for="">voleibol</label>
+            <img class="img-select" src="assets/tenis.jpeg" alt="tenis-link" id="tenis">
+            <div class="hover-select">
+              <label class="seccion-calendario" for="natacion">Tenis</label>
+            </div>
           </a>
-        </nav>
-        <nav>
-          <a href="#">
-            <img src="assets/natacion.jpeg" alt="natacion_link" id="natacion">
-            <label for="natacion">Natacion</label>
-          </a>
+          <nav>
+            <a href="#">
+              <img class="img-select" src="assets/voleibol.jpeg" alt="voleibol-link" id="voleibol">
+              <div class="hover-select">
+                <label class="seccion-calendario" for="voleibol">voleibol</label>
+              </div>
+            </a>
+          </nav>
+          <nav>
+            <a href="#">
+              <img class="img-select" src="assets/american_football.jpeg" alt="american_football"
+                id="american_football">
+              <div class="hover-select">
+                <label class="seccion-calendario" for="american_football">American football</label>
+              </div>
+            </a>
+          </nav>
+          <nav>
+            <a href="#">
+              <img class="img-select" src="assets/natacion.jpeg" alt="natacion" id="natacion">
+              <div class="hover-select">
+                <label class="seccion-calendario" for="natacion">Natacion</label>
+              </div>
+            </a>
+          </nav>
     </section>
     </nav>
     </nav>
-
     <nav class="Noticia del dia">
-      <section>
+      <section class="contenedor">
         <article>
           <h3><a href="#">Primicia</a></h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus fugit, consequuntur quibusdam
@@ -73,7 +98,7 @@
     </nav>
     <aside class="asside derecha">
       <nav class="noticia">
-        <section>
+        <section class="contenedor">
           <div>
 
             <h4><a href="#">Noticia 1</a></h4>
@@ -85,7 +110,7 @@
         </section>
       </nav>
       <nav class="noticia">
-        <section>
+        <section class="contenedor">
           <div>
             <h4><a href="#">Noticia 2</a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, expedita! Expedita nisi sapiente
@@ -97,7 +122,7 @@
         <div></div>
       </nav>
       <nav class="noticia">
-        <section>
+        <section class="contenedor">
           <div>
             <h4><a href="#">Noticia 3</a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, expedita! Expedita nisi sapiente
@@ -108,96 +133,103 @@
         </section>
       </nav>
     </aside>
-    <nav class="link_generales" id="link_generales">
-      <section class="link_generales">
+    <nav class="link-generales" id="link-generales">
+      <section class="contenedor link-generales">
         <div class="central">
           <a href="#">
-            <img src="assets/Concejos_deportivos.jpeg" alt="concejos" id="concejos">
+            <img src="assets/Concejos-deportivos.jpeg" alt="concejos" id="concejos">
             <label for="concejos">concejos</label>
           </a>
         </div>
-        <div class="link_1">
+        <div class="link-1">
           <a href="#">
-            <img src="assets/noticias.jpeg" alt="noticias_link" id="noticias_link">
-            <label for="noticias_link">Noticias</label>
+            <img src="assets/noticias.jpeg" alt="noticias-link" id="noticias-link">
+            <label for="noticias-link">Noticias</label>
           </a>
         </div>
-        <div class="link_2">
+        <div class="link-2">
           <a href="#">
             <img src="assets/suscribete.jpeg" alt="suscribete" id="suscribete">
             <label for="suscribete">Suscribete</label>
           </a>
         </div>
-        <div class="link_3">
+        <div class="link-3">
           <a href="#">
             <img src="assets/Apuestas.jpeg" alt="Apuestas" id="apuestas">
             <label for="apuestas">Apuestas</label>
           </a>
         </div>
-        <div class="link_4">
+        <div class="link-4">
           <a href="#">
-            <img src="assets/partidos_live.jpeg" alt="partidos_live" id="partidos_live">
-            <label for="partidos_live">En vivo</label>
+            <img src="assets/partidos-live.jpeg" alt="partidos-live" id="partidos-live">
+            <label for="partidos-live">En vivo</label>
           </a>
         </div>
-        <div class="link_5">
+        <div class="link-5">
           <a href="#">
             <img src="assets/tickets.jpeg" alt="tickets" id="tickets">
             <label for="tickets">Tickets</label>
           </a>
         </div>
-        <div class="link_6">
+        <div class="link-6">
           <a href="#">
             <img src="assets/Compra.jpeg" alt="compra" id="compra">
             <label for="compra">Compra</label>
           </a>
         </div>
       </section>
-      <section class="comentarios">
-        <div class="user_comment">
-          <h2>Usuario 1</h2>
+      <section class="contenedor comentarios">
+        <h2 class="titulo">Que dicen nuestros usuarios</h2>
+        <div class="user-comment">
+          <img src="assets/cliente1.jpg" alt="cliente1">
           <div class="cometario">
+            <h4>Usuario</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit enim eum qui quidem quaerat maxime fuga
               quos corrupti at! Quos quasi laborum fugiat molestiae fugit veritatis iste odit deserunt similique.</p>
           </div>
         </div>
-        <div class="user_comment">
-          <h2>Usuario 2</h2>
+        <div class="user-comment">
+          <img src="assets/cliente2.jpg" alt="cliente2">
           <div class="cometario">
+            <h4>Usuario</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit enim eum qui quidem quaerat maxime fuga
               quos corrupti at! Quos quasi laborum fugiat molestiae fugit veritatis iste odit deserunt similique.</p>
           </div>
         </div>
-        <div class="user_comment">
-          <h2>Usuario 3</h2>
+        <div class="user-comment">
+          <img src="assets/cliente3.jpg" alt="cliente3">
           <div class="cometario">
+            <h4>Usuario</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit enim eum qui quidem quaerat maxime fuga
               quos corrupti at! Quos quasi laborum fugiat molestiae fugit veritatis iste odit deserunt similique.</p>
           </div>
         </div>
-        <div class="user_comment">
-          <h2>Usuario 4</h2>
+        <div class="user-comment">
+          <img src="assets/cliente4.jpg" alt="cliente4">
           <div class="cometario">
+            <h4>Usuario</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit enim eum qui quidem quaerat maxime fuga
               quos corrupti at! Quos quasi laborum fugiat molestiae fugit veritatis iste odit deserunt similique.</p>
           </div>
         </div>
-        <div class="user_comment">
-          <h2>Usuario 5</h2>
+        <div class="user-comment">
+          <img src="assets/cliente5.jpg" alt="cliente5">
           <div class="cometario">
+            <h4>Usuario</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit enim eum qui quidem quaerat maxime fuga
               quos corrupti at! Quos quasi laborum fugiat molestiae fugit veritatis iste odit deserunt similique.</p>
           </div>
         </div>
-        <div class="user_comment">
-          <h2>Usuario 6</h2>
+        <div class="user-comment">
+          <img src="assets/cliente6.jpg" alt="cliente6">
           <div class="cometario">
+            <h4>Usuario</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit enim eum qui quidem quaerat maxime fuga
               quos corrupti at! Quos quasi laborum fugiat molestiae fugit veritatis iste odit deserunt similique.</p>
           </div>
           <div>
             <a href="#">
-              <img src="assets/App_linkImage.jpeg" alt="App_linkImage">
+              <img src="assets/App_linkImage.jpeg" alt="App-linkImage">
             </a>
           </div>
       </section>
@@ -217,10 +249,19 @@
       <a href="#">
         <img src="assets/youtube.svg" alt="youtube">
       </a>
-      <a href="#">Contacto</a>
+      <div class="contacto">
+        <h4>Tel:</h4>
+        <p>(123)456-7899</p>
+      </div>
+      <div class="contacto">
+        <h4>E-mail:</h4>
+        <p>landingPage@pages.com</p>
+      </div>
+      <div class="contacto">
+        <h4>Dir:</h4>
+        <p>Car. 121 # 30 - 65 Bosques del payador</p>
+      </div>
     </footer>
-
-
   </main>
 </body>
 
