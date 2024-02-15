@@ -122,9 +122,10 @@ body {
 }
 .main{
   width: 100%;
-  background: #00B4DB;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0083B0, #00b3db53);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0084b09f, #00b3dbc8),url(/assets/Background.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #00b3dbd8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0084b0ca, #00b3dbab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0084b09f, #00b3dbc8),url(/assets/Background.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
 }
