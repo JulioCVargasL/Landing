@@ -44,3 +44,53 @@ body{
 .navbar .toggle {
   display: none;
 }
+/*Section main*/
+
+.landing-julio{
+  max-width: 100%;
+  background: #00b3dbd8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0084b0ca, #00b3dbab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0084b09f, #00b3dbc8),url(/assets/Background.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  
+  grid-template-columns: repeat(10,1fr);
+  grid-template-rows: repeat(8,1fr);
+}
+.landing-julio .sport-select-titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing-julio h2{
+  
+  font-size: 2.5em;
+  color: rgb(247, 247, 8) ;
+  background-color: rgba(255, 255, 255, 0.77);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #181818;
+  padding: 0px 20px;
+  margin: 10px;
+  width: max-content;
+  line-height: 60px;
+  border-radius: 10px;
+}
+.landing-julio .sport-select{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.landing-julio .select{
+  background-color: #4286f496;
+}
+.sport-select .image-select{
+  width: 24%;
+  margin-bottom: 10px;
+}
+.sport-select > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

@@ -16,16 +16,17 @@
   .navbar .menu {
     position: absolute;
     width: 100%;
-    height: 70vh;
+    height: 20vh;
     display: grid;
     align-items: center;
     background: #373b4490;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4286f482, #373b4468);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin-top: 38em;
+    margin-top: 15em;
     transform: translateX(170%);
+    transition: 1s;
   }
   .navbar .menu-toggle{
-    transform: translatex(0%)
+    transform: translatex(70%)
   }
 }
