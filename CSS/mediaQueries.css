@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+  
+  .navbar{
+    position: relative;
+  }
+  .navbar .ingresar{
+    display:none;
+  }
+  .navbar .toggle {
+  display: block;
+  grid-column: 8 / 9;
+  font-size: 3em;
+  color: yellow;
+  cursor: pointer;
+  }
+  .navbar .menu {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    align-items: center;
+    background: #373b4490;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f482, #373b4468);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 38em;
+    transform: translateX(170%);
+  }
+  .navbar .menu-toggle{
+    transform: translatex(0%)
+  }
+}

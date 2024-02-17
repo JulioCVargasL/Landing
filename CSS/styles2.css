@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   font-family: "Fredoka", sans-serif;
+}
+.navbar{
+  background: #373b4490;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f482, #373b4468);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: grid;
+  grid-template-columns: repeat(8, 1fr) ;
+  align-items: center;
+  height: 60px;
+}
+.navbar .logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  grid-column: 2 / 3;
+}
+.navbar .menu{
+  grid-column: 4 / 7;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar .menu li{
+  list-style: none;
+}
+.navbar .ingresar{
+  grid-column: 8 / 9;
+  list-style: none;
+  text-decoration: none;
+  color: #e4db34;
+  cursor: pointer;
+}
+.navbar .menu a{
+  text-decoration: none;
+  color: #181818;
+  cursor: pointer;
+}  
+.navbar .toggle {
+  display: none;
+}
