@@ -54,9 +54,7 @@ body{
   ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
-  
-  grid-template-columns: repeat(10,1fr);
-  grid-template-rows: repeat(8,1fr);
+
 }
 .landing-julio .sport-select-titulo{
   display: flex;
@@ -85,12 +83,12 @@ body{
   background-color: #4286f496;
 }
 .sport-select .image-select{
-  width: 24%;
+  width: 30%;
   margin-bottom: 10px;
 }
 .sport-select > img{
-  width: 100%;
-  height: 100%;
+  width: 30px;
+  height: 30px;
   object-fit: cover;
   display: block;
 }
